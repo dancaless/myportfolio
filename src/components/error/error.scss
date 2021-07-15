@@ -1,0 +1,17 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    i {
+        padding: 10px;
+        color: #20c997;
+        font-size: 40px;
+    }
+
+    .error-message {
+        padding: 0 30px 30px 30px;
+    }
+}

@@ -5,26 +5,22 @@ import AboutPage from '../pages/AboutPage';
 import PortfolioPage from '../pages/PortfolioPage';
 import Contact from '../contact/contact';
 import Footer from '../fotter/footer';
+import Error from '../error/error';
 import './App.css';
+
 
 function App() {
   return (
     <>
       <Router>
-        <Container fluid={true}>
-          <Header />
-        </Container>
-
+        <Header />
         <Switch>
           <Route path="/" component={AboutPage} exact />
           <Route path="/about" component={AboutPage} />
           <Route path="/portfolio" component={PortfolioPage} />
           <Route path="/contact" component={Contact} />
         </Switch>
-
-        <Container fluid={true}>
-          <Footer />
-        </Container>
+        <Footer />
       </Router>
 
     </>

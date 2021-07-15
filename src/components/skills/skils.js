@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.scss';
-import './css/icons_brands.css';
+import '../app/css/icons_brands.css';
 
 const Skill = ({ className, name }) => {
     return (

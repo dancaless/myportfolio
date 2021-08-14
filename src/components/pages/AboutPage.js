@@ -4,7 +4,7 @@ import { Col, Row, Container } from 'reactstrap';
 import Skills from '../skills/skils';
 
 
-export default class Contact extends React.Component {
+export default class AboutPage extends React.Component {
 
     render() {
         return (

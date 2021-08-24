@@ -11,7 +11,7 @@ import './App.scss';
 function App() {
   return (
     <div className='app'>
-      <Router>
+      <Router basename='myportfolio'>
         <Header />
         <Switch>
           <Route path="/" component={AboutPage} exact />

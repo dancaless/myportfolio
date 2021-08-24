@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from '../menu/menu';
 
 import './header.scss'
 export default class About extends React.Component {
@@ -21,6 +22,7 @@ export default class About extends React.Component {
                         <li> <Link to="/contact">Контакты</Link></li>
                     </ul>
                 </nav>
+                <Menu />
             </header >
         )
     }

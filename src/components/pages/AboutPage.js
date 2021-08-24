@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutMain from '../aboutMain/aboutMain';
-import { Col, Row, Container } from 'reactstrap';
+import { Container } from 'reactstrap';
 import Skills from '../skills/skils';
 
 

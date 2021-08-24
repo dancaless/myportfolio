@@ -1,14 +1,14 @@
 .footer {
+    height: 100px;
     flex: 0 0 auto;
     width: 100%;
     background-color: #1b242f;
-    min-height: 200px;
+    min-height: 50px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 
     i {
-
         color: white;
         font-size: 25px;
         margin: 0 20px;

@@ -8,7 +8,7 @@ export default class ContactPage extends React.Component {
 
     render() {
         return (
-            <section className='contact'>
+            <section className='contact content'>
                 <Heading value='Контакты' />
                 <Container>
                     <Contact />

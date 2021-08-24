@@ -1,0 +1,71 @@
+.menu {
+
+    display: block;
+
+
+    @media (min-width: 765px) {
+        display: none;
+    }
+
+    .menu__i {
+        font-size: 30px;
+    }
+
+    .menu__place {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background-color: #1b242ff1;
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        animation-name: toLeft;
+        animation-duration: 0.4s;
+        animation-timing-function: ease;
+
+
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .menu__i {
+        text-align: right;
+        padding: 5% 5% 0 5%;
+        font-size: 2rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline-start: 0;
+
+        li {
+            display: block;
+            font-size: 2rem;
+            padding: 5%;
+
+
+        }
+    }
+}
+
+@keyframes toLeft {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0;
+    }
+
+}

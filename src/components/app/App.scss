@@ -3,22 +3,22 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40px;
   pointer-events: none;
 }
 
-.appHeight {
+.app {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 
-
   .header {
     flex: 0 0 auto;
+
   }
 
   .content {
-    flex: 1 1 100%;
-
+    flex: 1 0 auto;
   }
 
   .footers {

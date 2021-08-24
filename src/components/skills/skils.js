@@ -5,7 +5,7 @@ import '../app/css/icons_brands.css';
 const Skill = ({ className, name }) => {
     return (
         <div className='about-skills__item'>
-            <i class={className}></i>
+            <i className={className}></i>
             <h4 className='about-skills__itemTittle'>{name}</h4>
         </div>
     )

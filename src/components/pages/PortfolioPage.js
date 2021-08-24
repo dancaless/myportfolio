@@ -9,7 +9,7 @@ export default class PortfolioPage extends React.Component {
 
     render() {
         return (
-            <section className='portfolio_content'>
+            <section className='portfolio content'>
                 <Heading value='Мои работы' />
                 <Container>
                     <Portfolio />

@@ -1,10 +1,28 @@
 .contact {
     flex: 1 1 auto;
-    min-height: 710px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 
-    .content {
-        flex: 1 1 auto;
+    .contact_item {
+        padding: 20px 0;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 20px;
+        display: flex;
+
+        a {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+
+
+        i {
+            font-size: 1.5em;
+            padding: 0 15px 0 0;
+            color: #20c997;
+
+        }
     }
 }

@@ -24,7 +24,7 @@ export default class AboutMain extends React.Component {
 
                     </div>
                     <div className='about-main__buttons'>
-                        <Link to="https://drive.google.com/file/d/1Ht9ooz9aWBY-ZDal1V4n7fJ7nBygiNju/view" target="_blank" download>
+                        <Link to="https://drive.google.com/file/d/1Ht9ooz9aWBY-ZDal1V4n7fJ7nBygiNju/view?usp=sharing" target="_blank" download>
                             <button className='about-main__button button recomended'>Скачать Резюме</button>
                         </Link>
                         <Link to='/contact'>

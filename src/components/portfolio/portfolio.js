@@ -10,7 +10,8 @@ export default class Portfolio extends React.Component {
                     describe='Учебный проект. Осваивал: основы JavaScript, операторы, GIT, основы ООП, работа с DOM, async/await, классы' />
                 <Work classForImg='got'
                     name='Game of Thrones'
-                    describe='Учебный react проект. Осваивал: работу с промисами, Fetch, условный рендеринг, модульную систему' />
+                    describe='Учебный react проект. Осваивал: работу с промисами, Fetch, условный рендеринг, модульную систему'
+                    url='https://dancaless.github.io/got/' />
                 <Work classForImg='restoservice'
                     name='Resto Service'
                     describe='Учебный react проект. Осваивал: json-sever, жизненный цикл компонентов, hoc.Context, тестирование JEST+Enzyme' />

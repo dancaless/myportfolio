@@ -20,7 +20,7 @@ export default class Portfolio extends React.Component {
     }
 };
 
-const Work = ({ classForImg, name, describe, url = 'https://yandex.ru/pogoda/?via=hl&lat=60.035255&lon=30.252818' }) => {
+const Work = ({ classForImg, name, describe, url = '../../../public/docs/Сапожников Александр Викторович.pdf' }) => {
     return (
         <a href={url} target="_blank" rel="noreferrer" className={`portfolio-work ${classForImg}`}>
 
